@@ -1,0 +1,3 @@
+fal-client
+python-dotenv
+Pillow

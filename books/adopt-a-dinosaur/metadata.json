@@ -1,0 +1,57 @@
+{
+  "book": "adopt-a-dinosaur",
+  "requires_outpaint": true,
+  "cost_per_clip_usd": 0.14,
+  "cost_per_outpaint_usd": 0.05,
+  "pages": [],
+  "generation_log": [
+    {
+      "page": "00",
+      "step": "outpaint",
+      "status": "done",
+      "timestamp": "2026-06-28T14:35:51.116700+00:00",
+      "cost_usd": 0.05,
+      "output": "/home/aabel/github/animator/books/adopt-a-dinosaur/images-wide/page-00.jpg"
+    },
+    {
+      "page": "02",
+      "step": "outpaint",
+      "status": "done",
+      "timestamp": "2026-06-28T14:36:39.108458+00:00",
+      "cost_usd": 0.05,
+      "output": "/home/aabel/github/animator/books/adopt-a-dinosaur/images-wide/page-02.jpg"
+    },
+    {
+      "page": "03",
+      "step": "outpaint",
+      "status": "done",
+      "timestamp": "2026-06-28T14:37:23.576603+00:00",
+      "cost_usd": 0.05,
+      "output": "/home/aabel/github/animator/books/adopt-a-dinosaur/images-wide/page-03.jpg"
+    },
+    {
+      "page": "00",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-06-28T14:41:27.006047+00:00",
+      "cost_usd": 0.14,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-00.mp4"
+    },
+    {
+      "page": "02",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-06-28T14:43:54.229328+00:00",
+      "cost_usd": 0.14,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-02.mp4"
+    },
+    {
+      "page": "03",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-06-28T14:45:55.332913+00:00",
+      "cost_usd": 0.14,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-03.mp4"
+    }
+  ]
+}

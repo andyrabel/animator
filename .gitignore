@@ -1,0 +1,7 @@
+.env
+.venv/
+books/*/images/
+books/*/images-wide/
+books/*/clips/
+__pycache__/
+*.pyc
