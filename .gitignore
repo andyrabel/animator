@@ -3,5 +3,6 @@
 books/*/images/
 books/*/images-wide/
 books/*/clips/
+books/*/book.txt
 __pycache__/
 *.pyc
