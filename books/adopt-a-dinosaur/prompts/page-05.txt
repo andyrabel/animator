@@ -1,1 +1,7 @@
-Brad the Brachiosaurus cranes his long green neck slowly upward, pushing his head a little further through the jagged hole in the red tile roof. Small fragments of tile and dust crumble and fall from the broken edges. He blinks his tiny eye and gazes around calmly.
+Initally we don't see the dinosaur, and the house roof is in tact.
+The roof corner starts to bulg a little and
+Brad the Brachiosaurus' head and neck burst through the corner of the roof.
+He cranes his long green neck slowly upward, 
+pushing his head a little further through the jagged hole in the red tile roof.
+Small fragments of tile and dust crumble and fall from the broken edges. 
+He blinks his tiny eye and gazes around calmly.

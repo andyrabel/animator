@@ -186,6 +186,14 @@
       "timestamp": "2026-06-28T20:20:38.510884+00:00",
       "cost_usd": 0.14,
       "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-01.mp4"
+    },
+    {
+      "page": "02",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-06-28T21:04:21.276484+00:00",
+      "cost_usd": 0.14,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-02.mp4"
     }
   ]
 }
