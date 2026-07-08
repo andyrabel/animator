@@ -1,3 +1,5 @@
+# Triceratops (Tracy)
+
 Tracy the Triceratops stamps one large foot on the floor, 
 making the small toys nearby bounce and scatter slightly. 
 She blinks her dark eye and snorts softly. 

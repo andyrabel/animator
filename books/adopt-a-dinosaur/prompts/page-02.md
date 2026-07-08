@@ -1,3 +1,5 @@
+# Tyrannosaurus Rex
+
 The Tyrannosaurus rex stays where he is.
 He sways slowly and gently from side to side inside the house.
 Its tiny arms wriggling with a little wobble. 

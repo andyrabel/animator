@@ -1,3 +1,5 @@
+# Stegosaurus (Steggles)
+
 Steggles the purple Stegosaurus swings her spiked tail 
 slowly from one side to the other.
 She turns around.

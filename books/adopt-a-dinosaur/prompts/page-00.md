@@ -1,1 +1,3 @@
+# Stegosaurus
+
 The green Stegosaurus stands outside in warm sunshine, its bony plates glowing in the light. It breathes in slowly, sides rising and falling. Leaves on nearby trees rustle softly in a gentle breeze.

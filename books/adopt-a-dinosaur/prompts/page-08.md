@@ -1,3 +1,5 @@
+# Pteranodon (Terry)
+
 Initally the floor lamp is standing upright.
 Terry the Pteranodon beats its wide orange wings once with a powerful whoosh, 
 sending the floor lamp swinging sideways. 

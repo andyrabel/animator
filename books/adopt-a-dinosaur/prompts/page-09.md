@@ -1,3 +1,5 @@
+# Ankylosaurus (Tank)
+
 Tank the Ankylosaurus swings his heavy bony club tail slowly 
 from one side to the other.
  His blue-purple armored body shifts weight from foot to foot with a 

@@ -1,3 +1,5 @@
+# Diplodocus (Dippie & Dot)
+
 Dippie the large green Diplodocus in the foreground sways her 
 very long neck slowly from side to side, 
 completely blocking the view of the TV behind her. 

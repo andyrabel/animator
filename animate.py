@@ -201,7 +201,7 @@ def animate_page(book: Path, page_id: str, meta: dict, meta_path: Path, force: b
             print(f"  [{page_id}] [animate] skip — source image not found")
             return False
 
-    prompt_path = book / "prompts" / f"page-{page_id}.txt"
+    prompt_path = book / "prompts" / f"page-{page_id}.md"
     if not prompt_path.exists():
         print(f"  [{page_id}] [animate] skip — prompt file not found")
         return False
@@ -212,6 +212,9 @@ def animate_page(book: Path, page_id: str, meta: dict, meta_path: Path, force: b
         return True
 
     prompt = prompt_path.read_text().strip()
+    if prompt.startswith("#"):
+        _, _, prompt = prompt.partition("\n")
+        prompt = prompt.strip()
     print(f"  [{page_id}] [animate] submitting to fal.ai …", flush=True)
 
     try:
@@ -266,7 +269,7 @@ def print_status(book: Path, meta: dict) -> None:
         pid = img.stem.replace("page-", "")
         page_status = statuses.get(pid, {})
         has_wide = (book / "images-wide" / f"page-{pid}.jpg").exists()
-        has_prompt = (book / "prompts" / f"page-{pid}.txt").exists()
+        has_prompt = (book / "prompts" / f"page-{pid}.md").exists()
         has_clip = (book / "clips" / f"page-{pid}.mp4").exists()
         op_status = page_status.get("outpaint", "pending")
         an_status = page_status.get("animate", "pending")
