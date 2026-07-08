@@ -1,7 +1,7 @@
 {
   "book": "adopt-a-dinosaur",
   "requires_outpaint": true,
-  "cost_per_clip_usd": 0.14,
+  "cost_per_clip_usd": 1.12,
   "cost_per_outpaint_usd": 0.05,
   "pages": [],
   "generation_log": [
@@ -194,6 +194,129 @@
       "timestamp": "2026-06-28T21:04:21.276484+00:00",
       "cost_usd": 0.14,
       "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-02.mp4"
+    },
+    {
+      "page": "00",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-03T13:28:59.506067+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-00.mp4"
+    },
+    {
+      "page": "01",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-03T13:32:12.789776+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-01.mp4"
+    },
+    {
+      "page": "02",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-03T13:35:46.388561+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-02.mp4"
+    },
+    {
+      "page": "03",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-03T13:38:47.554057+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-03.mp4"
+    },
+    {
+      "page": "04",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-03T13:42:17.406160+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-04.mp4"
+    },
+    {
+      "page": "05",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-03T13:45:45.409057+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-05.mp4"
+    },
+    {
+      "page": "06",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-03T13:45:45.505708+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "07",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-03T13:45:45.874308+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "08",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-03T13:45:46.195221+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "09",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-03T13:45:46.494705+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "10",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-03T13:45:46.841177+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "06",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-03T14:08:21.359849+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-06.mp4"
+    },
+    {
+      "page": "07",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-03T14:11:32.127050+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-07.mp4"
+    },
+    {
+      "page": "08",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-03T14:14:21.500274+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-08.mp4"
+    },
+    {
+      "page": "09",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-03T14:17:22.113585+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-09.mp4"
+    },
+    {
+      "page": "10",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-03T14:20:25.350294+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/adopt-a-dinosaur/clips/page-10.mp4"
     }
   ]
 }

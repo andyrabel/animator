@@ -32,10 +32,11 @@ from dotenv import load_dotenv
 OUTPAINT_ENDPOINT = "fal-ai/flux-2-pro/outpaint"
 ANIMATE_ENDPOINT = "fal-ai/kling-video/v3/pro/image-to-video"
 
-ANIMATE_DURATION = "5"
+ANIMATE_DURATION = "10"
 ANIMATE_ASPECT_RATIO = "16:9"
 
-COST_ANIMATE_USD = 0.14   # Kling v3 Pro, 5 s
+COST_PER_SECOND_USD = 0.112  # Kling v3 Pro, audio off
+COST_ANIMATE_USD = COST_PER_SECOND_USD * int(ANIMATE_DURATION)  # $1.12 for 10 s
 COST_OUTPAINT_USD = 0.05  # FLUX 2 Pro Outpaint, ~1.8 MP
 
 
