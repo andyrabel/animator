@@ -21,6 +21,7 @@ import base64
 import json
 import math
 import os
+import re
 import sys
 import urllib.request
 from datetime import datetime, timezone
@@ -138,13 +139,23 @@ def calc_outpaint_expansion(image_path: Path) -> tuple[int, int]:
     return expand_left, expand_right
 
 
-def outpaint_page(book: Path, page_id: str, meta: dict, meta_path: Path, force: bool) -> bool:
-    src = book / "images" / f"page-{page_id}.jpg"
-    dest = book / "images-wide" / f"page-{page_id}.jpg"
+def find_page_file(dir_path: Path, page_id: str, ext: str) -> Path | None:
+    """Page files may be named page-{id}.{ext} or page-{id}-{Subject}.{ext}."""
+    matches = sorted(dir_path.glob(f"page-{page_id}-*.{ext}"))
+    if matches:
+        return matches[0]
+    exact = dir_path / f"page-{page_id}.{ext}"
+    return exact if exact.exists() else None
 
-    if not src.exists():
+
+def outpaint_page(book: Path, page_id: str, meta: dict, meta_path: Path, force: bool) -> bool:
+    src = find_page_file(book / "images", page_id, "jpg")
+
+    if src is None:
         print(f"  [{page_id}] [outpaint] skip — source image not found")
         return False
+
+    dest = book / "images-wide" / src.name
 
     if dest.exists() and not force:
         print(f"  [{page_id}] [outpaint] already done — skipping")
@@ -188,21 +199,26 @@ def outpaint_page(book: Path, page_id: str, meta: dict, meta_path: Path, force: 
 # Animation step
 # ---------------------------------------------------------------------------
 
+def find_prompt_path(book: Path, page_id: str) -> Path | None:
+    """Prompt files are named page-{id}.md or page-{id}-{Subject}.md."""
+    return find_page_file(book / "prompts", page_id, "md")
+
+
 def animate_page(book: Path, page_id: str, meta: dict, meta_path: Path, force: bool) -> bool:
     requires_outpaint = meta.get("requires_outpaint", False)
     if requires_outpaint:
-        image_path = book / "images-wide" / f"page-{page_id}.jpg"
-        if not image_path.exists():
+        image_path = find_page_file(book / "images-wide", page_id, "jpg")
+        if image_path is None:
             print(f"  [{page_id}] [animate] skip — wide image missing (run outpaint first)")
             return False
     else:
-        image_path = book / "images" / f"page-{page_id}.jpg"
-        if not image_path.exists():
+        image_path = find_page_file(book / "images", page_id, "jpg")
+        if image_path is None:
             print(f"  [{page_id}] [animate] skip — source image not found")
             return False
 
-    prompt_path = book / "prompts" / f"page-{page_id}.md"
-    if not prompt_path.exists():
+    prompt_path = find_prompt_path(book, page_id)
+    if prompt_path is None:
         print(f"  [{page_id}] [animate] skip — prompt file not found")
         return False
 
@@ -266,10 +282,10 @@ def print_status(book: Path, meta: dict) -> None:
         print("-" * 42)
 
     for img in images:
-        pid = img.stem.replace("page-", "")
+        pid = re.match(r"page-(\d+)", img.stem).group(1)
         page_status = statuses.get(pid, {})
-        has_wide = (book / "images-wide" / f"page-{pid}.jpg").exists()
-        has_prompt = (book / "prompts" / f"page-{pid}.md").exists()
+        has_wide = find_page_file(book / "images-wide", pid, "jpg") is not None
+        has_prompt = find_prompt_path(book, pid) is not None
         has_clip = (book / "clips" / f"page-{pid}.mp4").exists()
         op_status = page_status.get("outpaint", "pending")
         an_status = page_status.get("animate", "pending")
