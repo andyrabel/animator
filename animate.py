@@ -140,12 +140,15 @@ def calc_outpaint_expansion(image_path: Path) -> tuple[int, int]:
 
 
 def find_page_file(dir_path: Path, page_id: str, ext: str) -> Path | None:
-    """Page files may be named page-{id}.{ext} or page-{id}-{Subject}.{ext}."""
+    """Page files may be named page-{id}.{ext}, page-{id}-{Subject}.{ext}, or {id}_{slug}.{ext}."""
     matches = sorted(dir_path.glob(f"page-{page_id}-*.{ext}"))
     if matches:
         return matches[0]
     exact = dir_path / f"page-{page_id}.{ext}"
-    return exact if exact.exists() else None
+    if exact.exists():
+        return exact
+    matches = sorted(dir_path.glob(f"{page_id}_*.{ext}"))
+    return matches[0] if matches else None
 
 
 def outpaint_page(book: Path, page_id: str, meta: dict, meta_path: Path, force: bool) -> bool:

@@ -2,6 +2,7 @@
 .venv/
 books/*/images/
 books/*/images-wide/
+books/*/images-clean/
 books/*/clips/
 books/*/book.txt
 __pycache__/

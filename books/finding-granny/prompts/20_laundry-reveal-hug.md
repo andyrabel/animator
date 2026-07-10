@@ -1,0 +1,3 @@
+# Surprise! With Hugs for You and Me
+
+Granny had been crouched down hiding behind the linen basket, buried under a heaping pile of clothes, but now she bursts upward in surprise, laundry flying off her in every direction as her arms fling wide and a huge laughing smile lights up her face. The girl dashes toward her, one arm reaching out and the other flung up in excitement, her ponytail bouncing behind her, while the boy runs in from the other side with his arms outstretched, mid-stride, ready to jump into her hug. The scattered clothes and socks drift and tumble gently through the air as the children close in, and Granny wraps them both up in a big warm hug.

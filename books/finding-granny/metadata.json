@@ -1,0 +1,303 @@
+{
+  "book": "finding-granny",
+  "requires_outpaint": true,
+  "cost_per_clip_usd": 1.12,
+  "cost_per_outpaint_usd": 0.05,
+  "pages": [],
+  "generation_log": [
+    {
+      "page": "01",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T01:14:16.056584+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-01.mp4"
+    },
+    {
+      "page": "02",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T01:17:27.521462+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-02.mp4"
+    },
+    {
+      "page": "03",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:28.741821+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "04",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:29.256018+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "05",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:29.665858+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "06",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:30.241267+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "07",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:30.762586+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "08",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:31.154167+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "09",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:31.654488+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "10",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:32.485654+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "11",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:32.845998+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "12",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:33.206664+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "13",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:33.752454+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "14",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:34.298572+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "15",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:34.661387+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "16",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:35.199723+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "17",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:35.705780+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "18",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:36.198125+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "19",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:36.585513+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "21",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-09T01:17:37.135816+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "03",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T01:24:38.817537+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-03.mp4"
+    },
+    {
+      "page": "04",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T01:28:02.801521+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-04.mp4"
+    },
+    {
+      "page": "05",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T01:30:40.605060+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-05.mp4"
+    },
+    {
+      "page": "06",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T01:34:01.587269+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-06.mp4"
+    },
+    {
+      "page": "07",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T01:37:21.218788+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-07.mp4"
+    },
+    {
+      "page": "08",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T01:41:06.355643+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-08.mp4"
+    },
+    {
+      "page": "09",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T01:43:53.310079+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-09.mp4"
+    },
+    {
+      "page": "10",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T01:46:30.210301+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-10.mp4"
+    },
+    {
+      "page": "11",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T01:49:25.288080+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-11.mp4"
+    },
+    {
+      "page": "12",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T01:52:26.482124+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-12.mp4"
+    },
+    {
+      "page": "13",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T01:55:54.982438+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-13.mp4"
+    },
+    {
+      "page": "14",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T01:59:02.510972+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-14.mp4"
+    },
+    {
+      "page": "15",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T02:02:13.751726+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-15.mp4"
+    },
+    {
+      "page": "16",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T02:05:42.604709+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-16.mp4"
+    },
+    {
+      "page": "17",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T02:09:11.424502+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-17.mp4"
+    },
+    {
+      "page": "18",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T02:14:19.240515+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-18.mp4"
+    },
+    {
+      "page": "19",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T02:18:41.982306+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-19.mp4"
+    },
+    {
+      "page": "21",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T02:22:52.017989+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-21.mp4"
+    },
+    {
+      "page": "20",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-09T02:48:17.953952+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/finding-granny/clips/page-20.mp4"
+    }
+  ]
+}
