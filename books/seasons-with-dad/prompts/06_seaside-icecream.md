@@ -2,7 +2,7 @@
 
 Use the uploaded illustration as the starting frame. Preserve the original watercolor-and-ink children's book artwork exactly — same drawing style, colors, perspective, proportions, and composition throughout. Do not redraw or reinterpret the illustration. Camera completely static, no panning, zooming, or cuts.
 
-Begin on the seafront promenade. The boy and girl on the bench take unhurried licks of their ice lollies, swinging their legs and chatting between bites. The seagull standing by the life-buoy post takes a couple of waddling steps and tips its head, watching them hopefully.
+Begin on the seafront promenade. The boy and girl on the bench take unhurried licks of their ice lollies, and chatting between bites. The seagull standing by the life-buoy post takes a couple of waddling steps and tips its head, watching them hopefully.
 
 Dad walks up from the right at an easy pace, lifting his ice cream cone for another bite as he goes. Beyond the railing, the sea rolls in with slow, gentle waves lapping the shore, and the small sailboat on the horizon drifts almost imperceptibly. Soft mist shifts faintly over the distant hills.
 
