@@ -88,13 +88,22 @@ def latest_status(meta: dict) -> dict[str, dict[str, str]]:
     return result
 
 
+MAX_LOG_FIELD_LEN = 2000
+
+
+def _truncate(value):
+    if isinstance(value, str) and len(value) > MAX_LOG_FIELD_LEN:
+        return value[:MAX_LOG_FIELD_LEN] + f"... [truncated, {len(value)} chars total]"
+    return value
+
+
 def log_entry(meta: dict, page_id: str, step: str, status: str, **kwargs) -> None:
     entry = {
         "page": page_id,
         "step": step,
         "status": status,
         "timestamp": datetime.now(timezone.utc).isoformat(),
-        **kwargs,
+        **{k: _truncate(v) for k, v in kwargs.items()},
     }
     meta.setdefault("generation_log", []).append(entry)
 
