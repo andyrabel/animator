@@ -6,7 +6,9 @@ Begin with the bonfire's flames flickering and dancing, licking higher against t
 
 The boy lifts his toffee apple for a bite, watching the fire with wide, delighted eyes. Dad has his arm around the girl, who chatters happily to her brother. The distant birds glide slowly across the dark sky, silhouetted against the glow.
 
-End on the same cosy bonfire-night composition, the fire still glowing and the last sparks of the fireworks fading above.
+Near the end, both children step a few paces away from Dad, drawn toward the warmth, ending up slightly closer to the bonfire than before while Dad stays where he was. Keep the movement small and natural, just a few unhurried steps.
+
+End on the same cosy bonfire-night composition with the children now standing a little nearer the fire than Dad, the flames still glowing and the last sparks of the fireworks fading above.
 
 Sound: the crackle and pop of the bonfire, a soft whoosh and distant boom as each firework bursts, a faint hiss of sparks and embers drifting up. No dialogue, singing, or music.
 
