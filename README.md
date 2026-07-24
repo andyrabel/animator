@@ -64,3 +64,4 @@ If missing, `animate.py` creates it with sensible defaults on first run.
 
 - [`books/adopt-a-dinosaur/`](books/adopt-a-dinosaur/) — 11 pages (00–10)
 - [`books/finding-granny/`](books/finding-granny/) — in progress
+- [`books/seasons-with-dad/`](books/seasons-with-dad/) — scaffolded, awaiting text + interior images
