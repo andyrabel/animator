@@ -19,6 +19,222 @@
       "timestamp": "2026-07-23T21:07:12.695734+00:00",
       "cost_usd": 1.12,
       "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-04.mp4"
+    },
+    {
+      "page": "02",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-24T00:55:02.887938+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "03",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-24T00:55:03.386955+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "05",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-24T00:55:04.901963+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "06",
+      "step": "outpaint",
+      "status": "error",
+      "timestamp": "2026-07-24T00:55:06.891637+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "07",
+      "step": "outpaint",
+      "status": "error",
+      "timestamp": "2026-07-24T00:55:07.554931+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "08",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-24T00:55:08.197149+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "09",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-24T00:55:08.703781+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "10",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-24T00:55:10.023111+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "11",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-24T00:55:10.760216+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "12",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-24T00:55:11.289554+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "13",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-24T00:55:12.769763+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "14",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-24T00:55:13.394515+00:00",
+      "error": "User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."
+    },
+    {
+      "page": "02",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-24T01:20:40.318920+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-02.mp4"
+    },
+    {
+      "page": "03",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-24T01:25:28.847443+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-03.mp4"
+    },
+    {
+      "page": "05",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-24T01:25:32.684304+00:00",
+      "error": "[{'loc': ['body'], 'msg': 'File size exceeds the maximum allowed size of 10485760 bytes. Please upload a smaller file.', 'type': 'file_too_large', 'url': 'https://docs.fal.ai/errors#file_too_large', 'ctx': {'max_size': 10485760}, 'input': 'data:image/jpeg;base64,<omitted-base64-data>'}]"
+    },
+    {
+      "page": "06",
+      "step": "outpaint",
+      "status": "error",
+      "timestamp": "2026-07-24T01:25:36.721212+00:00",
+      "error": "[{'loc': ['body'], 'msg': 'The expanded canvas dimensions (4780x1904) exceed the maximum allowed dimension (2560).', 'type': 'value_error', 'url': 'https://docs.fal.ai/errors#value_error', 'input': {'image_url': 'data:image/jpeg;base64,<omitted-base64-data>', 'expand_top': 0, 'expand_bottom': 0, 'expand_left': 1294, 'expand_right': 1294, 'auto_crop': False, 'mode': 'high', 'enable_safety_checker': True, 'output_format': 'jpeg', 'sync_mode': False}}]"
+    },
+    {
+      "page": "07",
+      "step": "outpaint",
+      "status": "error",
+      "timestamp": "2026-07-24T01:25:38.637467+00:00",
+      "error": "[{'loc': ['body'], 'msg': 'The expanded canvas dimensions (4474x1968) exceed the maximum allowed dimension (2560).', 'type': 'value_error', 'url': 'https://docs.fal.ai/errors#value_error', 'input': {'image_url': 'data:image/jpeg;base64,<omitted-base64-data>', 'expand_top': 0, 'expand_bottom': 0, 'expand_left': 1181, 'expand_right': 1181, 'auto_crop': False, 'mode': 'high', 'enable_safety_checker': True, 'output_format': 'jpeg', 'sync_mode': False}}]"
+    },
+    {
+      "page": "08",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-24T01:31:25.059224+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-08.mp4"
+    },
+    {
+      "page": "09",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-24T01:34:55.704111+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-09.mp4"
+    },
+    {
+      "page": "10",
+      "step": "animate",
+      "status": "error",
+      "timestamp": "2026-07-24T01:34:59.021222+00:00",
+      "error": "[{'loc': ['body'], 'msg': 'File size exceeds the maximum allowed size of 10485760 bytes. Please upload a smaller file.', 'type': 'file_too_large', 'url': 'https://docs.fal.ai/errors#file_too_large', 'ctx': {'max_size': 10485760}, 'input': 'data:image/jpeg;base64,<omitted-base64-data>'}]"
+    },
+    {
+      "page": "11",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-24T01:41:03.560890+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-11.mp4"
+    },
+    {
+      "page": "12",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-24T01:45:50.498939+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-12.mp4"
+    },
+    {
+      "page": "13",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-24T01:50:04.628516+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-13.mp4"
+    },
+    {
+      "page": "14",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-24T01:54:01.471797+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-14.mp4"
+    },
+    {
+      "page": "06",
+      "step": "outpaint",
+      "status": "done",
+      "timestamp": "2026-07-24T01:57:34.030738+00:00",
+      "cost_usd": 0.05,
+      "output": "/home/aabel/github/animator/books/seasons-with-dad/images-wide/06_seaside-icecream.jpg"
+    },
+    {
+      "page": "07",
+      "step": "outpaint",
+      "status": "done",
+      "timestamp": "2026-07-24T01:59:14.857999+00:00",
+      "cost_usd": 0.05,
+      "output": "/home/aabel/github/animator/books/seasons-with-dad/images-wide/07_donkey-ride.jpg"
+    },
+    {
+      "page": "06",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-24T02:05:20.684213+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-06.mp4"
+    },
+    {
+      "page": "07",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-24T02:10:48.188235+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-07.mp4"
+    },
+    {
+      "page": "12",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-24T03:32:04.794616+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-12.mp4"
     }
   ]
 }
