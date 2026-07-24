@@ -1,15 +1,23 @@
 ## Image-to-Video Prompt
 
-Use the uploaded illustration as the starting frame. Preserve the original watercolor-and-ink children's book artwork exactly — same drawing style, colors, perspective, proportions, and composition throughout. Do not redraw or reinterpret the illustration. Camera completely static, no panning, zooming, or cuts.
+Use the uploaded illustration as the starting frame. Preserve the original watercolor-and-ink artwork exactly — same drawing style, brushwork, colours, proportions, lighting, and composition. Do not redraw or reinterpret the illustration. Camera completely static, no zoom, pan, tilt, or cuts.
 
-Begin in the quiet spring woodland. A gentle breeze stirs the canopy overhead, and the bluebells and white wood anemones carpeting the ground sway softly side to side. Dappled sunlight flickers faintly across the path.
+The woodland is peaceful on a bright spring morning. A light breeze stirs the tall trees, and the bluebells and white wood anemones sway gently as sunlight shimmers on the path.
 
-The blond boy balanced on the fallen log lifts his arms a little higher for balance, gives a small hop, and steps down onto the flower-strewn trail. The blue butterfly hovering near him drifts upward and circles lazily above the log, while the small green butterfly at the log's base flits low over the flowers.
+The blond boy balances on the fallen log with outstretched arms, pretending it is a balance beam. He notices a blue butterfly fluttering nearby and reaches toward it, but it drifts lazily toward the path. The red-haired girl smiles and skips a few playful steps after it. The boy grins and points excitedly, as if saying "Look!" She reaches for the butterfly, but it floats just out of reach.
 
-The red-haired girl on the path breaks into a few skipping steps, arms swinging, hair bouncing gently. In the sunlit gap between the trees, the small distant figure continues its unhurried walk away down the trail. Near the fence at the right edge, the fox-red squirrel gives a quick flick of its tail before darting behind a tree trunk.
+The children laugh silently together. The boy hops down from the log onto the path beside his sister, and for a moment they watch the butterfly drift between them before it rises toward the sunlit trees.
 
-End on the same peaceful woodland composition, sunlight still filtering through the bluebells and trees.
+The girl playfully races a few steps ahead, then turns to check her brother is following. He gives chase with a few light steps, enjoying the familiar game — neither child runs fast.
 
-Sound: soft rustle of leaves and grass in the breeze, the boy's quiet footsteps on the log and path, the girl's light skipping footfalls, a faint flutter of butterfly wings, a quick scurry of small claws as the squirrel darts behind the tree. No dialogue, singing, or music.
+As they slow, both glance toward their father walking calmly farther along the path, unhurried and not turning around.
 
-Style: faithful to the original watercolor-and-ink illustration, traditional British children's picture-book aesthetic, soft watercolor textures. No new characters or creatures beyond the boy, the girl, the distant walker, the squirrel, and the two butterflies already in the scene. No exaggerated cartoon movements. Preserve all original colours and lighting.
+Near the fence at right, the fox-red squirrel pauses, flicks its tail, then darts behind a tree trunk, while a small green butterfly flits among the flowers near the log before vanishing into the bluebells.
+
+The children stop their game and stroll on together in their father's direction, staying close to one another. The woodland settles back into quiet stillness, with butterflies drifting lazily and flowers swaying gently in the breeze.
+
+End on the same peaceful composition, sunlight filtering softly through the trees.
+
+**Sound:** Gentle rustling leaves, English spring birdsong, soft footsteps on the path, faint fluttering butterfly wings, and the brief scurry of the squirrel through leaves. No dialogue, narration, singing, or music.
+
+**Style:** Faithful to the original watercolor-and-ink illustration, traditional British storybook aesthetic, subtle realistic movement only. No exaggerated cartoon motion, no new characters, animals, or objects, and no colour, lighting, or composition changes. Movement stays slow, natural, and warm — a quiet family walk in an English bluebell wood.
