@@ -243,6 +243,14 @@
       "timestamp": "2026-07-24T03:40:37.699010+00:00",
       "cost_usd": 1.12,
       "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-13.mp4"
+    },
+    {
+      "page": "13",
+      "step": "animate",
+      "status": "done",
+      "timestamp": "2026-07-24T04:03:43.383449+00:00",
+      "cost_usd": 1.12,
+      "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-13.mp4"
     }
   ]
 }

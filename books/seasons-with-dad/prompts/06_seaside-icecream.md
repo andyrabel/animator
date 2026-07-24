@@ -4,9 +4,11 @@ Use the uploaded illustration as the starting frame. Preserve the original water
 
 Begin on the seafront promenade. The boy and girl on the bench take unhurried licks of their ice lollies, and chatting between bites. The seagull standing by the life-buoy post takes a couple of waddling steps and tips its head, watching them hopefully.
 
-Dad walks up from the right at an easy pace, lifting his ice cream cone for another bite as he goes. Beyond the railing, the sea rolls in with slow, gentle waves lapping the shore, and the small sailboat on the horizon drifts almost imperceptibly. Soft mist shifts faintly over the distant hills.
+Dad lifts his ice cream cone for another bite. Beyond the railing, the sea rolls in with slow, gentle waves lapping the shore, and the small sailboat on the horizon driftsalong. Soft mist and clouds shift faintly over the distant hills.
 
-End on the same relaxed seaside composition, the family still enjoying their treats by the water.
+The boy and girl hop down from the bench, and Dad, the boy, and the girl start off together along the promenade, unhurried and happy, finishing their treats as they go.
+
+End with the family walking off together along the promenade, still visible in frame, the sea and sailboat calm behind them.
 
 Sound: gentle waves lapping the shore, a distant soft murmur of surf, a seagull's cry, faint footsteps on the promenade. No dialogue, singing, or music.
 
