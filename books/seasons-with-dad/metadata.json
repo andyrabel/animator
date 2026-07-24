@@ -275,6 +275,14 @@
       "timestamp": "2026-07-24T12:57:33.651072+00:00",
       "cost_usd": 1.12,
       "clip": "/home/aabel/github/animator/books/seasons-with-dad/clips/page-08.mp4"
+    },
+    {
+      "page": "15",
+      "step": "outpaint",
+      "status": "done",
+      "timestamp": "2026-07-24T14:43:45.250428+00:00",
+      "cost_usd": 0.05,
+      "output": "/home/aabel/github/animator/books/seasons-with-dad/images-wide/15_taking-walks.jpg"
     }
   ]
 }
