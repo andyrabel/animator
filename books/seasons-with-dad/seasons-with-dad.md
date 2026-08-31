@@ -49,8 +49,9 @@ Page map (verse stanza → image), current as of the 2026-07-23 renumbering:
 - 14: Christmas — family around the table with a cake, tree in the bay window
   — files: `14_christmas-cake`
 - 15: Closing stanza — "Seasons with Dad, taking walks, playing games..." —
-  Dad, girl, and boy walking together through the woods with a basket —
-  files: `15_taking-walks`
+  Dad kneeling with the boy and girl playing a board game and cards on a
+  picnic blanket, teddy bear, wicker basket, and ball beside them, meadow
+  path curling away behind — files: `15_taking-walks` (animated)
 
 **Why:** Andrew supplied the full book text and a folder of loose, oddly-named
 source images, which were matched to stanzas and renamed to the
