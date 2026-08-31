@@ -4,7 +4,10 @@ books/*/images/
 books/*/images-text/
 books/*/images-wide/
 books/*/images-clean/
+books/*/overlays/
 books/*/clips/
+books/*/clips-final/
+books/*/*.mp4
 books/*/book.txt
 __pycache__/
 *.pyc

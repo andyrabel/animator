@@ -25,18 +25,34 @@ so:
    into sub-cues. Total runtime 02:40 (16 × 10 s). Re-time if a voiceover or a
    different clip length is used.
 3. `images-text/` — supplied spreads, renamed, verse still burned in. ✅
-4. `images/` — **TODO**: clean plates with all lettering painted out, saved as
-   `page-NN-<slug>.jpg` (plain white backgrounds make this easy; the
-   speech-bubble pages — 08, 12, 16 — need a little more care). This is what
-   `animate.py` reads. **Note:** `animate.py` only globs `images/page-*.jpg`
-   (not `.png`), so the clean plates must be JPEG. `metadata.json` has
-   `requires_outpaint: false`, so `images/` feeds Kling directly.
-5. `overlays/` — **TODO**: the original pink hand-lettering rebuilt as
-   transparent PNGs, re-composited as a static layer onto each finished clip in
-   post (ffmpeg `overlay`), then the SRT burned or kept as a sidecar.
+4. `images/` — clean plates, all lettering removed, `page-NN-<slug>.jpg`,
+   1920×1080 (letterboxed on white). This is what `animate.py` reads.
+   **Note:** `animate.py` only globs `images/page-*.jpg` (not `.png`), so the
+   clean plates must be JPEG. `metadata.json` has `requires_outpaint: false`,
+   so `images/` feeds Kling directly. **Built by `build_clean.py`** (FLUX
+   Kontext) — TODO, ~$0.64 on fal.ai.
+5. `overlays/` — the pink hand-lettering as transparent 1920×1080 PNGs,
+   composited back onto each clip. **First pass built by `build_overlays.py`**
+   (colour key, no cost) ✅ — pages 06/08/12/16 flagged for a hand pass: their
+   verse sat in a translucent white panel over artwork, and the bare keyed text
+   may need that panel painted back for legibility (or leave those lines to the
+   SRT only).
 
 Prompts are written against the **clean plate** and every prompt forbids the
 model from rendering any text.
+
+### Post-production scripts (run from `books/zac-is-back/`)
+
+| Script | Does | Cost |
+|--------|------|------|
+| `build_clean.py`    | `images-text/*.png` → Kontext text removal → `images/*.jpg` (1920×1080) | ~$0.04/page fal.ai |
+| *(then)* `python ../../animate.py zac-is-back` | `images/*.jpg` → Kling → `clips/page-NN.mp4` | ~$1.12/page fal.ai |
+| `build_overlays.py` | `images-text/*.png` → colour-key the pink verse → `overlays/*.png` | free (Pillow) |
+| `build_final.py`    | `clips/` + `overlays/` → `clips-final/` → `zac-is-back.mp4`; `--burn-srt` for the captioned cut | free (needs `ffmpeg`) |
+
+`zac_lib.py` holds the shared 1920×1080 contain-fit so clean plates and overlays
+register pixel-for-pixel. `ffmpeg` is not yet installed on this machine
+(`sudo apt install ffmpeg`).
 
 ## Visual style — mixed media, keep it that way
 
@@ -57,6 +73,33 @@ restyle them:
 Never shown as a face. Only ever the **back of a dusty-pink armchair** (white
 dash texture) and a **navy beret**, low in the frame. Keep it that way in every
 clip — no reveal.
+
+## Zac — character continuity
+
+Zac must read as the **same puppet** in every clip he appears in. Canonical Zac,
+from the supplied artwork:
+
+- Bright blue shaggy fur; soft-rendered 3D puppet (Grover family).
+- Round **wood-rimmed** glasses, perfectly circular lenses.
+- Big pink ball nose, centred.
+- Wide pink mouth, always an open cheerful grin.
+- Blue-and-white **horizontal**-striped crew shirt; blue furry hands, striped cuff.
+- Body language: bouncy, delighted, guileless.
+
+Never restyle, recolour, re-proportion, or "cartoon-flatten" him, and never blend
+him into the black-ink line-art of the room.
+
+### Staged face reveal — pages 01–03 (do not break)
+
+The reader does not see Zac's face until page 03. Hold this exactly:
+
+| Page | How much of Zac we see | Forbidden |
+|------|------------------------|-----------|
+| 01 | **Side of his head only** — a blue profile passing left-to-right behind the window. Ear, back of head, edge of glasses, tip of the pink nose in silhouette. Moving through, not stopping. | No front view, no eye contact, no full face. |
+| 02 | **One hand and striped cuff only**, reaching in through the part-open door. | No arm past the wrist, no head, no face, no body. |
+| 03 | **Full face, front on — the big reveal.** First and only time we see all of Zac at once. Let it land: he fills the left half, beams straight out. | Nothing withheld now; this is the payoff of 01–02. |
+
+From page 04 on, Zac is shown freely (full puppet, any angle).
 
 ## Page map
 

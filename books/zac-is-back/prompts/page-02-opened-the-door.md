@@ -17,9 +17,10 @@ then the fingers curl and relax. The curtains and the potted-plant leaves sway
 gently. Every black line breathes with a faint hand-drawn wobble. End with the
 blue hand open, mid friendly wave, just inside the doorway.
 
-Only the hand and striped cuff are visible of the visitor — no face, no body
-yet. Do not render any text, letters, numbers, or captions anywhere in the
-frame.
+Only the hand and striped cuff are visible of the visitor — nothing past the
+wrist, no arm, no head, no face, no body yet. (The face reveal is held for the
+next page.) Do not render any text, letters, numbers, or captions anywhere in
+the frame.
 
 **Sound:** the creak of a door hinge, a light knock fading, quiet room tone.
 No dialogue, narration, singing, or music.

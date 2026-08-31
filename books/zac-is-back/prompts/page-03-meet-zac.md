@@ -4,12 +4,14 @@
 
 **Starting frame:** the uploaded clean plate (all page lettering removed).
 
-Use the clean plate exactly as the first frame. Zac fills the left half of the
-frame — a soft-rendered fuzzy blue puppet: bright blue fur, round wood-rimmed
-glasses, a big pink ball nose, wide happy pink grin, blue-and-white striped
-shirt — standing in front of a loose black-ink line-art doorframe, with a
-tied-back curtain and a sketchy potted plant on the right. Camera completely
-static — no pan, zoom, tilt, or cuts.
+Use the clean plate exactly as the first frame. **This is the reveal** — the
+first time we see Zac's face, front on, after only a passing profile and a hand
+in the last two pages. Zac fills the left half of the frame, facing straight
+out: a soft-rendered fuzzy blue puppet — bright blue shaggy fur, round
+wood-rimmed circular glasses, a big pink ball nose, wide happy pink grin,
+blue-and-white horizontal-striped shirt — standing in front of a loose
+black-ink line-art doorframe, with a tied-back curtain and a sketchy potted
+plant on the right. Camera completely static — no pan, zoom, tilt, or cuts.
 
 Zac beams and gives one slow, delighted blink. His blue fur ruffles softly at
 the edges. His head tilts a little, as if he has just introduced himself, and
