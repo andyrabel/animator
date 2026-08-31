@@ -1,6 +1,7 @@
 .env
 .venv/
 books/*/images/
+books/*/images-text/
 books/*/images-wide/
 books/*/images-clean/
 books/*/clips/

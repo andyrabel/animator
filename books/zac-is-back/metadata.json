@@ -1,0 +1,8 @@
+{
+  "book": "zac-is-back",
+  "requires_outpaint": false,
+  "cost_per_clip_usd": 1.12,
+  "cost_per_outpaint_usd": 0.05,
+  "pages": [],
+  "generation_log": []
+}
